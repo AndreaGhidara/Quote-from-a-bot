@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: royalblue;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+main{
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.charactersCont{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.iconFrame{
+    width: 130px;
+    display: inline-block;
+}
+
+.iconFrame img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid blue;
+}
+
+.loading{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(127, 255, 212, 0.562);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading img{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.loading-hidden{
+    display: none;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(127, 255, 212, 0.562);
+    z-index: 10;
+}
+
+.modalHidden{
+    display: none;
+}
+
+.modalBox{
+    position: relative;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid blue;
+    max-width: 512px;
+    margin: 3rem auto;
+}
+
+.modalClose{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 115, 0, 0.664);
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.separator{
+    margin: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+    .iconFrame{
+        width: 100px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .iconFrame{
+        width: 130px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .iconFrame{
+        width: 150px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
