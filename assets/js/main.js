@@ -41,7 +41,7 @@ const characters = [
 
 const API_URL = "https://api.openai.com/v1/chat/completions";
 const MODEL = "gpt-3.5-turbo";
-const API_KEY = "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"
+const API_KEY = ""
 const loader = document.querySelector(".loading")
 
 async function playCharacter(nameCharacter) {
